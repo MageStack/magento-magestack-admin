@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left"
+	xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="MageStack_AdminMageStack::css/main.css" />
+	</head>
+	<body>
+		<referenceContainer name="content" htmlTag="div"
+			htmlId="big-content-magento">
+			<block class="Magento\Framework\View\Element\Template" name="magestack-save"
+				template="MageStack_AdminMageStack::promotions.phtml" />
+		</referenceContainer>
+	</body>
+</page>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright 2018 MageStack. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="MageStack_AdminMageStack::marketing_social" title="Mage Stack" module="MageStack_AdminMageStack" sortOrder="30"
+		    resource="MageStack_AdminMageStack::marketing_social"/>
+        <add id="MageStack_AdminMageStack::magestack_marketing" title="Communications" module="MageStack_AdminMageStack" sortOrder="10"
+            parent="MageStack_AdminMageStack::marketing_social" action="adminmagestack" resource="MageStack_AdminMageStack::magestack_marketing"/>
+    </menu>
+</config>
